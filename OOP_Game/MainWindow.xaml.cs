@@ -39,7 +39,8 @@ namespace OOP_Game
 
         private void Heal_Click(object sender, RoutedEventArgs e)
         {
-
+            charakter1.Heal();
+            Txt1.Text = charakter1.ToString();
         }
     }
 }
